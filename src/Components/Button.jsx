@@ -1,11 +1,10 @@
 import React from "react";
 
-const Button = ({ text, color, onClick, disabled }) => {
+const Button = ({ text, color }) => {
   return (
     <button
-      className="text-xl text-white px-5 py-3 rounded-full shadow-2xl"
+      className="px-5 text-white text-xl font-medium py-3 rounded-full shadow-lg"
       style={{ backgroundColor: color }}
-      onClick={onClick}
     >
       {text}
     </button>
